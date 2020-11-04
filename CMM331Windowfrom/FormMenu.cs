@@ -194,5 +194,18 @@ namespace CMM331Windowfrom
             pictureBox2.Image = bitmap;
 
         }
+
+        private void brighnessToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            //Image sourceImage = pictureBox1.Image;
+            //Bitmap bmpNew = new Bitmap(sourceImage);
+            //bmpNew = ExtBitmap.CopyAsBrightness(sourceImage, 10);
+        }
+
+        private void average5x5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
